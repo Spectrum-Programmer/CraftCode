@@ -1,0 +1,16 @@
+plugin TestPlugin
+
+start { 
+    System.chat("Plugin has began again!")
+    System.chat("Wow I can chat here now!")
+    System.chat("What if I put a [System.seed(1 to 20)] here :O")
+}
+
+when BlockPlace do {
+    System.chat(System.seed(1 to 10))
+    event.block("DIAMOND_BLOCK")
+}
+
+when PlayerJoin do {
+    event.message("A PLAYER HAS ARRIVED!! YIPPEE!!")
+}
