@@ -1,6 +1,0 @@
-name: CraftCode
-version: '0.0.1-SNAPSHOT'
-main: org.spectrumworkshop.craftcode.CraftCode
-description: A plugin-making plugin, that allows you to easily make new plugins using simple syntax.
-author: DrSpectrum
-api-version: '1.21'
